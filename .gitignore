@@ -8,3 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
