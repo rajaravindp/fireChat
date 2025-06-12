@@ -21,9 +21,9 @@ st.title("JetSetAccess")
 col1, col2 = st.columns([0.5, 0.5], gap="large", vertical_alignment='top')
 
 with col1:
-    with st.popover("Click to expand image"):
-        st.image("assets/united_homepage.png", caption="United Airlines Booking Page", use_container_width=False)
-    # st.image("assets/united_homepage.png", caption="United Airlines Booking Page", use_container_width=True)
+    # with st.popover("Click to expand image"):
+    #     st.image("assets/united_homepage.png", caption="United Airlines Booking Page", use_container_width=False)
+    st.image("assets/united_homepage.png", caption="United Airlines Booking Page", use_container_width=True)
 
 with col2:
     url_input = st.text_input("Enter the URL of the webpage you want to scrape:")
